@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class PlanetRotation : MonoBehaviour
 {
-    public Vector3 locationNumber; //bucket of information that you have to fill
-
+    public Vector3 axisOfRotation; // (x, y, z)
+    public float speed;
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Start has been called hahaaaaaa");
+        Debug.Log("start has been called");
     }
-
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Start has been called hahaha");
-
+        transform.Rotate(axisOfRotation * Time.deltaTime * speed);
     }
 }
