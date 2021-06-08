@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ARXray.unity
+- path: Assets/Classes/FoodFight/Scene/FoodFight.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
